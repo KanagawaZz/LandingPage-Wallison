@@ -64,10 +64,10 @@ export function PracticeAreas({ practiceAreas, siteConfig }) {
                       </div>
                     </div>
 
-                    <span class="card-nature-badge">
+                    <div class="card-nature-badge">
                       <span class="nature-dot"></span>
-                      <span>Administrativo & Judicial</span>
-                    </span>
+                      <span>Atuação Administrativa & Judicial</span>
+                    </div>
                   </div>
                 </article>
               `;

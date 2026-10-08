@@ -13,7 +13,7 @@ export const practiceAreas = [
       'Anulação judicial de portarias punitivas e PADs com vício ou cerceamento de defesa',
       'Combate a acusações desproporcionais de faltas, inassiduidade ou quebra de deveres',
     ],
-    spheres: ['Estadual (LC 04/90)', 'Municipal', 'Federal'],
+    spheres: ['Estadual (MT)', 'Municipal', 'Federal'],
   },
   {
     id: 'progressoes-enquadramento',
@@ -29,7 +29,7 @@ export const practiceAreas = [
       'Cobrança judicial de diferenças remuneratórias retroativas à data do direito',
       'Enquadramento incorreto em novos Planos de Cargos, Carreiras e Salários (PCCS)',
     ],
-    spheres: ['Estadual (SEDUC, SES, etc.)', 'Municipal', 'Federal'],
+    spheres: ['Estadual (MT)', 'Municipal', 'Federal'],
   },
   {
     id: 'licencas-direitos-retidos',
@@ -61,7 +61,7 @@ export const practiceAreas = [
       'Correção da base de cálculo de adicional calculada a menor pelo ente público',
       'Cobrança retroativa das parcelas não quitadas nos últimos 5 anos com juros e correção',
     ],
-    spheres: ['Municipal', 'Estadual (SES-MT)', 'Federal'],
+    spheres: ['Estadual (MT)', 'Municipal', 'Federal'],
   },
   {
     id: 'contratados-temporarios',
@@ -77,7 +77,7 @@ export const practiceAreas = [
       'Discussão de verbas indenizatórias e depósitos de FGTS conforme tese do STF',
       'Supressão indevida de adicionais durante a vigência do contrato administrativo',
     ],
-    spheres: ['Municipal', 'Estadual'],
+    spheres: ['Estadual (MT)', 'Municipal'],
   },
   {
     id: 'estabilidade-desvio-funcao',
@@ -93,6 +93,6 @@ export const practiceAreas = [
       'Remoção de ofício desprovida de motivação legítima ou com desvio de finalidade',
       'Medidas judiciais urgentes (liminares) para restabelecimento de lotação original',
     ],
-    spheres: ['Estadual', 'Municipal', 'Federal'],
+    spheres: ['Estadual (MT)', 'Municipal', 'Federal'],
   },
 ];
