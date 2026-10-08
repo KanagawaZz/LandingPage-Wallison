@@ -11,11 +11,11 @@ export function Footer({ lawyer, siteConfig }) {
             <span class="footer-monogram">WP</span>
             <div>
               <strong class="footer-title">${siteConfig.name}</strong>
-              <p class="footer-subtitle">${lawyer.oab} • Direito Administrativo</p>
+              <p class="footer-subtitle">${lawyer.oab} • Defesa de Servidores Públicos</p>
             </div>
           </div>
           <p class="footer-bio-summary">
-            Atuação técnica, fundamentada e ética dedicada à defesa dos direitos de servidores públicos municipais, estaduais e federais em todo o Mato Grosso.
+            Atuação técnica, combativa e ética dedicada à proteção das prerrogativas funcionais de servidores públicos municipais, estaduais (LC 04/90) e federais em todo o Mato Grosso.
           </p>
           <div class="footer-lgpd-note">
             <span class="lgpd-icon">${Icon({ name: 'shield', size: 14 })}</span>

@@ -1,26 +1,26 @@
 export const myths = [
   {
     id: 'mito-1',
-    myth: '“Buscar a via judicial contra a administração pública é ineficaz em razão do tempo de tramitação.”',
-    reality: 'Decisões judiciais definitivas vinculam a administração, mas os créditos estão sujeitos a prazos prescricionais legais.',
+    myth: '“Se eu consultar um advogado ou ajuizar ação, minha chefia vai me perseguir ou posso ser demitido.”',
+    reality: 'O servidor conta com garantias constitucionais de estabilidade e a lei veda expressamente qualquer ato de retaliação.',
     explanation:
-      'A atuação judicial é um instrumento constitucional legítimo para resguardar prerrogativas da carreira. Todavia, a cobrança de créditos funcionais sujeita-se a regras de prescrição (geralmente quinquenal), de modo que a inércia pode acarretar a perda de parcelas pretéritas. Cada caso exige análise técnica individualizada, não havendo garantia de resultado.',
-    badge: 'Prescrição & Prazos',
+      'A demanda é proposta em face do Ente Público (Estado de Mato Grosso ou Município), e jamais contra a pessoa física da chefia ou do gestor. O ordenamento jurídico assegura proteção à ampla defesa e veda expressamente qualquer ato de retaliação no âmbito funcional, garantindo estabilidade e tranquilidade ao servidor.',
+    badge: 'Garantias Funcionais',
   },
   {
     id: 'mito-2',
-    myth: '“O ajuizamento de ação contra o ente público acarreta necessariamente penalidades funcionais ou demissão.”',
-    reality: 'O acesso ao Poder Judiciário é direito constitucional e a lei estabelece garantias formais ao servidor.',
+    myth: '“Posso esperar para cobrar minhas progressões ou adicionais retroativos com calma no futuro.”',
+    reality: 'Dívidas da Fazenda Pública prescrevem mês a mês após 5 anos (prescrição quinquenal).',
     explanation:
-      'A demanda judicial é direcionada ao ente público (União, Estado ou Município), e não à pessoa do gestor. Os servidores públicos contam com garantias legais e procedimentos estritos fixados em lei. O ordenamento jurídico veda a prática de atos arbitrários de retaliação no âmbito funcional.',
-    badge: 'Garantias Legais',
+      'Conforme o Decreto nº 20.910/1932, créditos devidos pela administração pública prescrevem continuamente em 5 anos. Isso significa que, a cada mês que você adia a tomada de providências, perde em definitivo uma parcela mensal de valores retroativos que poderiam ser restituídos com juros e correção monetária.',
+    badge: 'Prescrição de 5 Anos',
   },
   {
     id: 'mito-3',
-    myth: '“Apenas servidores efetivos e estáveis possuem legitimidade para postular direitos em juízo.”',
-    reality: 'Servidores contratados e temporários também possuem direitos, cuja extensão depende da natureza do vínculo.',
+    myth: '“Apenas servidores efetivos e concursados possuem direitos a reclamar perante a Justiça.”',
+    reality: 'Servidores contratados por processo seletivo temporário também possuem direitos assegurados.',
     explanation:
-      'Os direitos de trabalhadores contratados temporariamente podem variar conforme a modalidade de contratação, o regime jurídico adotado pelo ente federativo e a jurisprudência aplicável ao caso concreto. A viabilidade de qualquer pedido depende de detida análise documental prévia.',
-    badge: 'Regime Jurídico',
+      'Profissionais admitidos em regimes temporários por Secretarias de Estado (como SEDUC e SES-MT) ou Prefeituras Municipais contam com direitos reconhecidos pelo STF e tribunais estaduais, como recebimento de verbas rescisórias, férias com terço constitucional, 13º salário e, em certos casos, reflexos de FGTS.',
+    badge: 'Contratados & Temporários',
   },
 ];

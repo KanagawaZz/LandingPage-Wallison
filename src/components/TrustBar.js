@@ -8,7 +8,7 @@ export function TrustBar({ trustBadges }) {
           ${trustBadges
             .map(
               (badge) => `
-                <div class="trust-card" data-tilt-3d data-tilt-max="5">
+                <div class="trust-card">
                   <div class="trust-icon-box">
                     ${Icon({ name: badge.icon, size: 24 })}
                   </div>

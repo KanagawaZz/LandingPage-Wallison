@@ -23,7 +23,8 @@
 
 [data-reveal].is-visible {
   opacity: 1;
-  transform: translate(0, 0);
+  transform: none;
+  will-change: auto;
 }
 
 /* Delay escalonado sutil para cartões */

@@ -1,5 +1,5 @@
 export function applySeo(siteConfig, lawyer) {
-  const fullTitle = `${siteConfig.name} | ${lawyer.oab} • Direito Administrativo em MT`;
+  const fullTitle = `${siteConfig.name} | ${lawyer.oab} • Defesa de Servidores em MT`;
   const description = siteConfig.description;
 
   document.title = fullTitle;

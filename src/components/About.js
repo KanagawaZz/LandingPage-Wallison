@@ -38,15 +38,15 @@ export function About({ lawyer, siteConfig }) {
             </div>
 
             <h2 class="about-title">
-              Advocacia comprometida com as garantias legais de quem serve à sociedade.
+              Advocacia dedicada à defesa dos servidores públicos em todo o Mato Grosso.
             </h2>
 
             <div class="about-paragraphs">
               <p>
-                O exercício da função pública demanda dedicação diária, mas frequentemente o servidor se depara com decisões administrativas unilaterais, atrasos na concessão de direitos remuneratórios ou processos que exigem defesa especializada.
+                O exercício da função pública demanda dedicação diária à sociedade. No entanto, é frequente que o servidor enfrente decisões administrativas unilaterais, atrasos injustificados na concessão de progressões, supressão de adicionais ou notificações de processos disciplinares (PADs).
               </p>
               <p>
-                A <strong>${siteConfig.name}</strong> atua com foco exclusivo na proteção desses direitos: oferecendo uma atuação firme, técnica e fundamentada, pautada pela análise criteriosa das normas estatutárias e jurisprudenciais aplicáveis a cada carreira.
+                O <strong>Dr. Wallison Prado</strong> atua com foco combativo na proteção das prerrogativas funcionais de quem serve ao público: unindo rigor técnico na interpretação da <strong>Lei Complementar Estadual nº 04/1990</strong> e estatutos municipais ao compromisso de transparência, comunicação acessível e atendimento 100% digital em todo o estado de MT.
               </p>
             </div>
 
@@ -69,12 +69,12 @@ export function About({ lawyer, siteConfig }) {
             </div>
 
             <div class="about-actions-row">
-              <a href="#contato" class="button button-outline">
-                <span>Ver canais de contato</span>
+              <a href="${siteConfig.instagram}" target="_blank" rel="noopener noreferrer" class="button button-instagram" title="Acompanhar o trabalho no Instagram">
+                ${Icon({ name: 'instagram', size: 18 })}
+                <span>Conhecer perfil no Instagram ${siteConfig.instagramHandle}</span>
               </a>
-              <a href="${siteConfig.instagram}" target="_blank" rel="noopener noreferrer" class="link-subtle" title="Acompanhar no Instagram">
-                ${Icon({ name: 'instagram', size: 16 })}
-                <span>Acompanhe ${siteConfig.instagramHandle}</span>
+              <a href="#contato" class="button button-outline">
+                <span>Solicitar Atendimento</span>
               </a>
             </div>
           </div>

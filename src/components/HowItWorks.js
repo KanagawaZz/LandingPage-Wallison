@@ -6,12 +6,12 @@ export function HowItWorks({ steps, siteConfig }) {
       <div class="container">
         <div class="section-header" data-reveal="fade-up">
           <div class="eyebrow-chip">
-            ${Icon({ name: 'clock', size: 14 })}
-            <span>Atendimento 100% Online</span>
+            ${Icon({ name: 'shield', size: 14 })}
+            <span>Atendimento 100% Digital e Seguro</span>
           </div>
-          <h2>Como funciona o atendimento jurídico</h2>
+          <h2>Como funciona o atendimento para servidores de MT</h2>
           <p class="section-subheading">
-            Procedimento estruturado por WhatsApp e videochamada, com assinatura eletrônica de documentos para servidores de todo o Mato Grosso.
+            Procedimento direto pelo celular, com total comodidade e sem necessidade de deslocamento, atendendo servidores de Cuiabá e de todo o interior de Mato Grosso.
           </p>
         </div>
 
@@ -47,12 +47,11 @@ export function HowItWorks({ steps, siteConfig }) {
 
         <div class="steps-action-bar" data-reveal="fade-up">
           <div class="action-info">
-            <span class="badge-live-reply">${Icon({ name: 'clock', size: 14 })} ${siteConfig.responseTimeEstimate}</span>
-            <strong>Atendimento digital seguro para servidores em todo o estado de MT.</strong>
+            <span class="badge-live-reply">${Icon({ name: 'shield', size: 14 })} Processo 100% Digital e Seguro</span>
+            <strong>Atendimento ágil, documentação simplificada e suporte direto com o advogado.</strong>
           </div>
-          <a href="${siteConfig.whatsappLink}" target="_blank" rel="noopener noreferrer" class="button button-primary">
-            ${Icon({ name: 'chat', size: 18 })}
-            <span>Falar com o Dr. Wallison</span>
+          <a href="#sobre" class="button button-outline">
+            <span>Conhecer o Advogado</span>
           </a>
         </div>
       </div>

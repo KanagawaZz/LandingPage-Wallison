@@ -7,11 +7,11 @@ export function PracticeAreas({ practiceAreas, siteConfig }) {
         <div class="section-header" data-reveal="fade-up">
           <div class="eyebrow-chip">
             ${Icon({ name: 'briefcase', size: 14 })}
-            <span>Áreas de Atuação</span>
+            <span>Áreas de Atuação Especializada</span>
           </div>
           <h2>Demandas frequentes de servidores públicos em Mato Grosso</h2>
           <p class="section-subheading">
-            Atuação técnica e fundamentada para assegurar o cumprimento rigoroso da legislação funcional nas esferas <strong>Municipal, Estadual e Federal</strong>.
+            Atuação técnica para combater arbitrariedades, destravar direitos de carreira e recuperar valores retidos nas esferas <strong>Estadual (LC 04/90), Municipal e Federal</strong>.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export function PracticeAreas({ practiceAreas, siteConfig }) {
               const numberStr = String(index + 1).padStart(2, '0');
 
               return `
-                <article class="practice-card" data-tilt-3d data-tilt-max="4" data-reveal="fade-up" style="--card-delay: ${index * 0.08}s">
+                <article class="practice-card" data-reveal="fade-up" style="--card-delay: ${index * 0.08}s">
                   <div class="card-top">
                     <div class="card-icon-container">
                       ${Icon({ name: area.icon, size: 24 })}
@@ -77,12 +77,12 @@ export function PracticeAreas({ practiceAreas, siteConfig }) {
 
         <div class="practice-cta-strip" data-reveal="fade-up">
           <div class="strip-text">
-            <strong>Sua situação funcional apresenta particularidades?</strong>
-            <p>Cada regime estatutário possui regramentos específicos. Solicite uma avaliação individualizada da sua documentação.</p>
+            <strong>Identificou sua situação ou tem dúvidas sobre prazos e valores?</strong>
+            <p>Débitos da Fazenda Pública prescrevem mês a mês (limite de 5 anos). Converse com o Dr. Wallison para uma triagem preliminar da sua situação funcional.</p>
           </div>
           <a href="${siteConfig.whatsappLink}" target="_blank" rel="noopener noreferrer" class="button button-primary">
             ${Icon({ name: 'chat', size: 18 })}
-            <span>Solicitar análise do meu caso</span>
+            <span>Tirar dúvida com o Dr. Wallison</span>
           </a>
         </div>
       </div>

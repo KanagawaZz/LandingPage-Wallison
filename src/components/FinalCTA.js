@@ -7,24 +7,31 @@ export function FinalCTA({ siteConfig, lawyer }) {
         <div class="contact-card-box" data-reveal="fade-up">
           <div class="contact-header-content">
             <div class="eyebrow-chip light">
-              ${Icon({ name: 'chat', size: 14 })}
-              <span>Atendimento 100% Online • Mato Grosso</span>
+              ${Icon({ name: 'shield', size: 14 })}
+              <span>Atendimento 100% Online • Cuiabá e Interior de MT</span>
             </div>
             <h2 class="contact-title">
-              Solicite a análise fundamentada do seu caso funcional
+              Proteja sua carreira e seus direitos antes que os prazos prescrevam
             </h2>
             <p class="contact-subtitle">
-              Entre em contato pelo WhatsApp ou e-mail institucional. O atendimento é prestado diretamente pelo Dr. Wallison com retorno ágil em horário comercial.
+              Tire suas dúvidas diretamente com o Dr. Wallison Prado pelo WhatsApp. Atendimento ágil, direto e sem intermediários para servidores estaduais (LC 04/90), municipais e federais em todo o Mato Grosso.
             </p>
+
+            <div class="contact-trust-checklist">
+              <span>✓ Triagem rápida e sem burocracia</span>
+              <span>✓ Avaliação técnica individualizada</span>
+              <span>✓ Atendimento 100% online no celular</span>
+            </div>
 
             <div class="contact-primary-actions">
               <a class="button button-gold contact-main-btn" href="${siteConfig.whatsappLink}" target="_blank" rel="noopener noreferrer">
                 ${Icon({ name: 'chat', size: 20 })}
-                <span>Falar com o Dr. Wallison</span>
+                <span>Falar agora com o Dr. Wallison no WhatsApp</span>
               </a>
               <a class="button button-glass contact-oab-btn" href="${siteConfig.oabLink}" target="_blank" rel="noopener noreferrer">
                 ${Icon({ name: 'scale', size: 16 })}
                 <span>Consultar OAB/MT 31.726</span>
+                ${Icon({ name: 'externalLink', size: 13 })}
               </a>
             </div>
           </div>
@@ -78,12 +85,8 @@ export function FinalCTA({ siteConfig, lawyer }) {
           <div class="contact-social-bar">
             <div class="social-bar-text">
               <span class="security-dot"></span>
-              <span>Comunicação segura e sigilo profissional resguardado pelo Estatuto da OAB.</span>
+              <span>Comunicação segura e conduta ética resguardada pelo Estatuto da OAB.</span>
             </div>
-            <a href="${siteConfig.instagram}" target="_blank" rel="noopener noreferrer" class="instagram-button-pill" title="Acompanhar no Instagram">
-              ${Icon({ name: 'instagram', size: 16 })}
-              <span>Acompanhe ${siteConfig.instagramHandle}</span>
-            </a>
           </div>
         </div>
       </div>

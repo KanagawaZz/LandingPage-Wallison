@@ -1,27 +1,32 @@
 export const faq = [
   {
-    question: 'Quais documentos preciso enviar?',
+    question: 'Minha chefia imediata ou o RH vão saber que consultei um advogado?',
     answer:
-      'Geralmente, são necessários documento de identificação com foto, comprovante de residência, termo de posse ou contrato de trabalho, contracheques recentes e cópia do ato administrativo em questão (como portaria, processo disciplinar ou notificação). A relação exata é informada de acordo com o caso.',
+      'Não. O atendimento inicial e qualquer análise de documentos são estritamente sigilosos, protegidos pelo sigilo profissional inerente à advocacia (Lei nº 8.906/1994) e pela LGPD. Nenhuma informação é comunicada ao seu órgão ou a colegas de trabalho.',
   },
   {
-    question: 'Como funciona o atendimento online?',
+    question: 'Moro no interior de Mato Grosso. Preciso me deslocar até Cuiabá?',
     answer:
-      'O atendimento é realizado de forma 100% digital, por meio de WhatsApp e videochamada. Os documentos podem ser enviados em formato digital e a assinatura de instrumentos jurídicos é realizada por plataforma eletrônica com validade legal, sem necessidade de deslocamento.',
+      'Não é necessário. Nosso atendimento é 100% digital para servidores de qualquer cidade de Mato Grosso (Sinop, Rondonópolis, Sorriso, Cáceres, Barra do Garças, Tangará da Serra, Alta Floresta, etc.). O envio de documentos e a assinatura de procuração são realizados com total validade jurídica diretamente pelo celular.',
   },
   {
-    question: 'Atende servidores municipais, estaduais e federais?',
+    question: 'O que acontece se eu demorar para cobrar uma progressão ou valor atrasado?',
     answer:
-      'Sim. A atuação em Direito Administrativo contempla servidores públicos vinculados às esferas municipal, estadual e federal, englobando cargos efetivos e contratações temporárias em todo o território de Mato Grosso.',
+      'As dívidas da Fazenda Pública prescrevem mês a mês após 5 anos (prescrição quinquenal). Isso significa que cada mês que você adia a cobrança de uma progressão congelada ou adicional retido resulta na perda definitiva de uma parcela de valores retroativos que poderiam ser recebidos com juros e correção monetária.',
   },
   {
-    question: 'Existe prazo para buscar meus direitos?',
+    question: 'Como funciona a análise inicial de viabilidade?',
     answer:
-      'Sim. Na relação com a Fazenda Pública, os direitos remuneratórios e funcionais estão sujeitos a prazos prescricionais legais — em regra, o prazo de cinco anos a contar do ato ou da parcela devida. A análise individualizada avalia a tempestividade da pretensão.',
+      'Você envia seu relato e seus documentos básicos pelo WhatsApp. O Dr. Wallison faz uma triagem técnica preliminar para verificar se há amparo legal ou jurisprudencial no seu caso. Se houver viabilidade e você optar pela atuação, todas as etapas e honorários contratuais são formalizados com absoluta transparência.',
   },
   {
-    question: 'Minhas informações ficam em sigilo?',
+    question: 'Atende servidores municipais, estaduais (LC 04/90) e federais?',
     answer:
-      'Sim. O atendimento e a troca de informações são estritamente resguardados pelo sigilo profissional inerente ao exercício da advocacia, previsto no Estatuto da OAB (Lei nº 8.906/1994), bem como pelos princípios da Lei Geral de Proteção de Dados (LGPD).',
+      'Sim. Atuamos na defesa de servidores do Estado de Mato Grosso regidos pela Lei Complementar nº 04/1990 (como SEDUC, SES-MT, Segurança Pública), servidores municipais de todas as prefeituras de MT e servidores federais (Lei nº 8.112/1990), incluindo cargos efetivos e contratados temporários.',
+  },
+  {
+    question: 'Quais documentos preciso ter em mãos para a conversa?',
+    answer:
+      'Basta ter em mãos documento de identidade (RG ou CNH), termo de posse ou contrato funcional, os últimos contracheques e o documento relativo à sua dúvida (como notificação de PAD, portaria, certidão de licença-prêmio ou requerimento administrativo indeferido).',
   },
 ];

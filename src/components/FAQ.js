@@ -39,11 +39,12 @@ export function FAQ({ faq, siteConfig }) {
 
         <div class="faq-support-box" data-reveal="fade-up">
           <div class="support-text">
-            <strong>Deseja mais esclarecimentos sobre sua situação?</strong>
-            <p>Entre em contato pelos canais oficiais para uma avaliação técnica individualizada da sua documentação.</p>
+            <strong>Conteúdo jurídico contínuo para servidores públicos</strong>
+            <p>Acompanhe análises sobre a LC 04/90, decisões judiciais recentes e orientações sobre direitos funcionais no Instagram.</p>
           </div>
-          <a href="#contato" class="button button-outline">
-            <span>Ir para canais de contato</span>
+          <a href="${siteConfig.instagram}" target="_blank" rel="noopener noreferrer" class="button button-instagram">
+            ${Icon({ name: 'instagram', size: 18 })}
+            <span>Acompanhar no Instagram</span>
           </a>
         </div>
       </div>

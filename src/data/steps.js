@@ -1,26 +1,26 @@
 export const steps = [
   {
     number: '01',
-    title: 'Contato Inicial',
-    subtitle: 'Envio seguro das informações pelo WhatsApp',
+    title: 'Contato Seguro pelo WhatsApp',
+    subtitle: 'Atendimento direto com o advogado com retorno ágil',
     description:
-      'Você entra em contato relatando os pontos essenciais da sua situação funcional. O retorno é prestado de forma ágil durante o horário comercial.',
+      'Você entra em contato explicando o seu cargo, órgão e o problema funcional enfrentado. A conversa é direta com o Dr. Wallison, com orientação clara desde o primeiro momento.',
     highlight: 'Comunicação direta com o advogado',
   },
   {
     number: '02',
-    title: 'Exame Técnico de Viabilidade',
-    subtitle: 'Análise minuciosa da legislação e da documentação funcional',
+    title: 'Diagnóstico das Leis de MT e Documentos',
+    subtitle: 'Exame minucioso da LC 04/90, do estatuto do seu município e dos contracheques',
     description:
-      'Examinamos o estatuto correspondente ao seu cargo e os documentos fornecidos para avaliar a fundamentação jurídica do caso, com total transparência técnica e sem promessa de resultado.',
+      'Avaliamos com rigor técnico os seus holerites, portarias e fichas funcionais para identificar ilegalidades, prescrição e a viabilidade jurídica do seu direito, com total transparência e sem promessa de resultado.',
     highlight: 'Diagnóstico jurídico fundamentado',
   },
   {
     number: '03',
-    title: 'Formalização e Atuação',
-    subtitle: 'Procedimento 100% online em todo o Mato Grosso',
+    title: 'Atuação 100% Digital em Qualquer Cidade de MT',
+    subtitle: 'Assinatura eletrônica no celular, sem necessidade de deslocamento',
     description:
-      'O atendimento é realizado por WhatsApp e videochamada, com coleta de procuração e documentos por assinatura eletrônica, garantindo comodidade e segurança processual.',
-    highlight: 'Assinatura digital e comodidade',
+      'Atendemos servidores de Cuiabá e de todo o interior de Mato Grosso. A procuração e os documentos são assinados digitalmente pelo celular. Você acompanha cada movimentação com relatórios periódicos.',
+    highlight: 'Assinatura digital e comodidade total',
   },
 ];

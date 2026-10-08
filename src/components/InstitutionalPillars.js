@@ -5,24 +5,24 @@ const themisImage = new URL('../assets/themis-justice.jpg', import.meta.url).hre
 export function InstitutionalPillars({ siteConfig }) {
   const pillars = [
     {
-      icon: 'scale',
-      title: 'A Balança: Rigor Técnico e Proporcionalidade',
-      desc: 'Análise aprofundada de contracheques, portarias, fichas financeiras e normas aplicáveis para verificar com exatidão os direitos devidos.',
+      icon: 'fileCheck',
+      title: 'Domínio da LC 04/1990 e Legislações Municipais',
+      desc: 'Conhecimento técnico aprofundado do Estatuto dos Servidores de MT e dos planos de carreira das prefeituras, identificando ilegalidades e direitos represados.',
     },
     {
       icon: 'shield',
-      title: 'A Espada: Atuação Firme, Técnica e Fundamentada',
-      desc: 'Defesa consistente das prerrogativas funcionais perante comissões disciplinares e instâncias judiciais, fundada estritamente no ordenamento legal.',
-    },
-    {
-      icon: 'fileCheck',
-      title: 'A Legalidade Estrita e o Devido Processo Legal',
-      desc: 'Atuação pautada pelos preceitos constitucionais, assegurando contraditório, ampla defesa e respeito às garantias do servidor público.',
+      title: 'Segurança Jurídica e Proteção da Carreira',
+      desc: 'Atuação orientada a resguardar a estabilidade e a tranquilidade da sua trajetória funcional, combatendo perseguições e atos administrativos arbitrários.',
     },
     {
       icon: 'clock',
-      title: 'Discrição e Confidencialidade',
-      desc: 'Resguardo rigoroso de documentos e informações funcionais, com estrita observância do sigilo profissional inerente à advocacia.',
+      title: 'Agilidade Contra a Prescrição de 5 Anos',
+      desc: 'A cada mês de inércia, uma parcela de valores retroativos prescreve definitivamente perante a Fazenda Pública. Atuamos com celeridade para evitar perdas.',
+    },
+    {
+      icon: 'chat',
+      title: 'Comunicação Direta no WhatsApp Sem Juridiquês',
+      desc: 'Esclarecimentos claros, sem termos herméticos ou enrolação. Você fala diretamente com o Dr. Wallison e acompanha cada movimentação com transparência.',
     },
   ];
 
@@ -32,16 +32,16 @@ export function InstitutionalPillars({ siteConfig }) {
         <div class="institutional-grid">
           <div class="institutional-copy" data-reveal="fade-right">
             <div class="eyebrow-chip">
-              ${Icon({ name: 'scale', size: 14 })}
-              <span>Pilares Institucionais</span>
+              ${Icon({ name: 'shield', size: 14 })}
+              <span>Diferenciais de Atuação</span>
             </div>
 
             <h2 class="institutional-title">
-              Equilíbrio na análise jurídica. Firmeza e fundamentação técnica na defesa.
+              Defesa intransigente da sua carreira, estabilidade e remuneração em MT.
             </h2>
 
             <p class="institutional-lead">
-              A representação clássica da Justiça simboliza o compromisso de nossa atuação perante a Administração Pública: discernimento para apurar a legalidade e solidez técnica para proteger os direitos do servidor.
+              A atuação perante a Administração Pública exige técnica, coragem jurídica e profundo conhecimento das normas locais. Conheça as bases que garantem a segurança do seu atendimento:
             </p>
 
             <div class="institutional-pillars-list">
@@ -64,9 +64,9 @@ export function InstitutionalPillars({ siteConfig }) {
 
             <div class="institutional-credo-box">
               <p class="credo-quote">
-                “A defesa das prerrogativas do servidor público é condição essencial para a integridade, a legalidade e o equilíbrio da Administração.”
+                “Nenhum servidor público deve abrir mão de seus direitos remuneratórios ou da sua estabilidade funcional por receio de retaliação ou desinformação.”
               </p>
-              <span class="credo-signature">— ${siteConfig.name}</span>
+              <span class="credo-signature">— Dr. Wallison Prado • OAB/MT 31.726</span>
             </div>
           </div>
 
@@ -74,7 +74,7 @@ export function InstitutionalPillars({ siteConfig }) {
             <div class="themis-frame-3d" data-tilt-3d data-tilt-max="5">
               <img 
                 src="${themisImage}" 
-                alt="Escultura em bronze da deusa Têmis, com a balança da justiça e a espada, simbolizando o equilíbrio do Direito Administrativo" 
+                alt="Símbolo da Justiça e Legalidade no Direito Administrativo" 
                 class="themis-image" 
                 loading="lazy" 
               />
@@ -84,11 +84,11 @@ export function InstitutionalPillars({ siteConfig }) {
 
             <div class="themis-badge-pill">
               <div class="themis-badge-icon">
-                ${Icon({ name: 'scale', size: 16 })}
+                ${Icon({ name: 'shield', size: 16 })}
               </div>
               <div class="themis-badge-text">
-                <strong>Justiça & Legalidade</strong>
-                <small>Direito Administrativo para Servidores em MT</small>
+                <strong>Segurança & Rigor Técnico</strong>
+                <small>Defesa Especializada de Servidores em MT</small>
               </div>
             </div>
           </div>

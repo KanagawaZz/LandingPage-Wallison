@@ -5,7 +5,7 @@ export function WhatsAppButton({ siteConfig }) {
         <span class="tooltip-status-dot" aria-hidden="true"></span>
         <div class="tooltip-text">
           <strong>Dr. Wallison Prado</strong>
-          <small>Atendimento Online • Horário Comercial</small>
+          <small>Tire sua dúvida funcional no WhatsApp</small>
         </div>
       </div>
 

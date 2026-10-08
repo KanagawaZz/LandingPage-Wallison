@@ -2,9 +2,9 @@ import { Icon } from './Icon.js';
 
 export function Myths({ myths, siteConfig }) {
   const topics = [
-    'Prescrição & Cobrança de Créditos',
-    'Garantias Funcionais & Acesso à Justiça',
-    'Regime Temporário & Precedentes Jurídicos',
+    'Proteção Contra Retaliações',
+    'Prescrição Quinquenal (5 Anos)',
+    'Contratados Temporários',
   ];
 
   return `
@@ -12,12 +12,12 @@ export function Myths({ myths, siteConfig }) {
       <div class="container">
         <div class="section-header" data-reveal="fade-up">
           <div class="eyebrow-chip">
-            ${Icon({ name: 'scale', size: 14 })}
-            <span>Segurança Jurídica & Esclarecimentos</span>
+            ${Icon({ name: 'shield', size: 14 })}
+            <span>Mitos & Verdades do Funcionalismo</span>
           </div>
-          <h2>Informações fundamentadas sobre os direitos do servidor</h2>
+          <h2>O que você precisa saber antes de tomar qualquer decisão</h2>
           <p class="section-subheading">
-            Dúvidas frequentes e entendimentos consolidados sobre a atuação do servidor público perante a administração e o Poder Judiciário.
+            Esclareça receios comuns sobre perseguições, prazos da Fazenda Pública e legitimidade dos seus direitos em Mato Grosso.
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export function Myths({ myths, siteConfig }) {
               const numberLabel = String(idx + 1).padStart(2, '0');
 
               return `
-                <div class="myth-depth-card" data-tilt-3d data-tilt-max="4" data-reveal="fade-up" style="--myth-delay: ${idx * 0.1}s">
+                <div class="myth-depth-card" data-reveal="fade-up" style="--myth-delay: ${idx * 0.1}s">
                   <div class="myth-card-header">
                     <div class="myth-topic-pill">
                       <span class="topic-num">${numberLabel}</span>

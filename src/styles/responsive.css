@@ -279,6 +279,10 @@
     width: 100%;
   }
 
+  .contact-oab-btn {
+    margin-left: 0;
+  }
+
   .footer-bottom-row {
     flex-direction: column;
     gap: 0.8rem;
