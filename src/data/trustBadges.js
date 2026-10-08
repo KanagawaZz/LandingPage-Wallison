@@ -1,0 +1,38 @@
+export const trustBadges = [
+  {
+    icon: 'scale',
+    badge: 'Inscrição Oficial',
+    title: 'OAB/MT 31.726',
+    description: 'Situação regular e verificável publicamente no Cadastro Nacional dos Advogados.',
+    linkText: 'Consultar no site da OAB',
+    linkHref: 'https://cna.oab.org.br/',
+    isExternal: true,
+  },
+  {
+    icon: 'shield',
+    badge: 'Atuação Técnica',
+    title: 'Direito Administrativo',
+    description: 'Defesa fundamentada de servidores municipais, estaduais e federais.',
+    linkText: 'Ver áreas de atuação',
+    linkHref: '#atuacao',
+    isExternal: false,
+  },
+  {
+    icon: 'clock',
+    badge: 'Comunicação Direta',
+    title: 'Retorno Ágil',
+    description: 'Atendimento prestativo e célere em horário comercial.',
+    linkText: 'Conheça as etapas',
+    linkHref: '#como-funciona',
+    isExternal: false,
+  },
+  {
+    icon: 'mapPin',
+    badge: '100% Online',
+    title: 'Todo o Mato Grosso',
+    description: 'Atendimento por WhatsApp e videochamada, com assinatura eletrônica segura.',
+    linkText: 'Entenda o procedimento',
+    linkHref: '#como-funciona',
+    isExternal: false,
+  },
+];

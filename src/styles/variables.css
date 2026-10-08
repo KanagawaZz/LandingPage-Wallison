@@ -1,0 +1,46 @@
+:root {
+  /* Paleta Nobre e Institucional - Conforme Diretrizes da OAB */
+  --color-primary: #0B1B33;           /* Azul-marinho profundo como cor principal */
+  --color-primary-dark: #071224;      /* Azul-marinho ultra escuro */
+  --color-primary-light: #162a4a;     /* Tom intermediário elegante */
+  --color-primary-soft: rgba(11, 27, 51, 0.05);
+
+  --color-accent: #B89B5E;            /* Dourado champanhe fosco apenas em detalhes */
+  --color-accent-hover: #a3874b;      /* Dourado escurecido para hover */
+  --color-accent-light: #cfb77f;      /* Dourado claro para linhas finas */
+  --color-accent-soft: rgba(184, 155, 94, 0.10);
+  --color-accent-border: rgba(184, 155, 94, 0.35);
+
+  --color-bg: #F7F4EE;                /* Off-white quente como fundo */
+  --color-bg-alt: #EFEBE1;            /* Off-white secundário */
+  --color-surface: #FFFFFF;           /* Superfície limpa para cards */
+  --color-surface-subtle: #FAF8F4;
+
+  --color-text: #1A202C;              /* Grafite escuro para máxima legibilidade */
+  --color-text-secondary: #4A5568;    /* Grafite médio para parágrafos */
+  --color-text-muted: #718096;        /* Grafite suave para notas secundárias */
+  --color-text-light: #F7F4EE;
+
+  --color-border: rgba(11, 27, 51, 0.10);  /* Borda sutil de 1px */
+  --color-border-subtle: rgba(11, 27, 51, 0.06);
+
+  /* Tipografia */
+  --font-display: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Efeitos e Sombras Leves */
+  --shadow-subtle: 0 2px 8px rgba(11, 27, 51, 0.04);
+  --shadow-card: 0 8px 24px rgba(11, 27, 51, 0.06);
+  --shadow-hover: 0 12px 32px rgba(11, 27, 51, 0.10);
+
+  /* Cantos suaves (8-12px) */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-pill: 9999px;
+
+  /* Layout */
+  --container-max: 1200px;
+  --transition-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+}

@@ -1,0 +1,91 @@
+import { Icon } from './Icon.js';
+
+export function PracticeAreas({ practiceAreas, siteConfig }) {
+  return `
+    <section id="atuacao" class="section-block practice-section">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <div class="eyebrow-chip">
+            ${Icon({ name: 'briefcase', size: 14 })}
+            <span>Áreas de Atuação</span>
+          </div>
+          <h2>Demandas frequentes de servidores públicos em Mato Grosso</h2>
+          <p class="section-subheading">
+            Atuação técnica e fundamentada para assegurar o cumprimento rigoroso da legislação funcional nas esferas <strong>Municipal, Estadual e Federal</strong>.
+          </p>
+        </div>
+
+        <div class="practice-grid">
+          ${practiceAreas
+            .map((area, index) => {
+              const numberStr = String(index + 1).padStart(2, '0');
+
+              return `
+                <article class="practice-card" data-tilt-3d data-tilt-max="4" data-reveal="fade-up" style="--card-delay: ${index * 0.08}s">
+                  <div class="card-top">
+                    <div class="card-icon-container">
+                      ${Icon({ name: area.icon, size: 24 })}
+                    </div>
+                    <div class="card-meta">
+                      <span class="card-number">${numberStr}</span>
+                      <span class="card-category-tag">${area.tag}</span>
+                    </div>
+                  </div>
+
+                  <div class="card-body">
+                    <h3 class="card-title">${area.title}</h3>
+                    <p class="card-subtitle">${area.subtitle}</p>
+                    <p class="card-description">${area.description}</p>
+
+                    <div class="card-examples-box">
+                      <span class="examples-label">Situações recorrentes:</span>
+                      <ul class="examples-list">
+                        ${area.examples
+                          .map(
+                            (ex) => `
+                              <li>
+                                <span class="check-bullet">${Icon({ name: 'check', size: 12 })}</span>
+                                <span>${ex}</span>
+                              </li>
+                            `
+                          )
+                          .join('')}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="card-footer">
+                    <div class="card-spheres-wrap">
+                      <span class="spheres-label">Esferas:</span>
+                      <div class="spheres-chips">
+                        ${area.spheres
+                          .map((sphere) => `<span class="sphere-chip">${sphere}</span>`)
+                          .join('')}
+                      </div>
+                    </div>
+
+                    <span class="card-nature-badge">
+                      <span class="nature-dot"></span>
+                      <span>Administrativo & Judicial</span>
+                    </span>
+                  </div>
+                </article>
+              `;
+            })
+            .join('')}
+        </div>
+
+        <div class="practice-cta-strip" data-reveal="fade-up">
+          <div class="strip-text">
+            <strong>Sua situação funcional apresenta particularidades?</strong>
+            <p>Cada regime estatutário possui regramentos específicos. Solicite uma avaliação individualizada da sua documentação.</p>
+          </div>
+          <a href="${siteConfig.whatsappLink}" target="_blank" rel="noopener noreferrer" class="button button-primary">
+            ${Icon({ name: 'chat', size: 18 })}
+            <span>Solicitar análise do meu caso</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  `;
+}
